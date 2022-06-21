@@ -11,7 +11,7 @@ import seaborn as sns
 
 
 data = data.drop(['Car_Name'], axis=1) 
-data['current_year'] = 2020
+data['current_year'] = 2022
 data['no_year'] = data['current_year'] - data['Year'] 
 data = data.drop(['Year','current_year'],axis = 1) 
 data = pd.get_dummies(data,drop_first=True) 
