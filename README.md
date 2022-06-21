@@ -12,6 +12,7 @@ Car Value Prediction is a project which runs on Machine Learning and will be abl
 3. pip install sklearn
 4. pip install matplotlib
 5. pip install flask
+6. pip install seaborn
 
 # Execution Process
 1. Install Softwares
